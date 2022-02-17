@@ -31,3 +31,5 @@ main: $(objects)
 
 output: main
 		./main < symbol.c > index.html
+		main
+		
